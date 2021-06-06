@@ -1,0 +1,25 @@
+@import "main";
+.modal-content {
+  background-color: rgb(255, 255, 204);
+  .modal-header {
+    button {
+      margin: 0;
+      padding: 0;
+    }
+    h2 {
+      font-size: $pad-mar5;
+      color: #000;
+    }
+  }
+  label {
+    font-size: $font-size3;
+    color: #000;
+  }
+  .btn-xacNhan {
+    margin: 0 auto;
+  }
+  .khoichieu {
+    margin-right: 20px;
+    margin-left: 15px;
+  }
+}
